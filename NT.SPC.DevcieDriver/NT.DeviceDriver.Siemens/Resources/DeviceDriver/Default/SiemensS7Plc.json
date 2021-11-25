@@ -1,0 +1,24 @@
+{
+  "ConnectId": "Default",
+  "ConnectConfig": {
+    "PlcModel": "S200Smart",
+    "Host": "192.168.2.1",
+    "Slot": 1,
+    "Rack": 0,
+    "AcquisitionCycle": 100,
+    "Timeout": 1000
+  },
+  "HelpText": "这是一段帮助文本。",
+  "AddressConfigs": [
+    {
+      "DataName": "OD",
+      "Address": "M100",
+      "Length": 2,
+      "DataType": "float",
+      "ExchangeType": "21",
+      "Rate": 1,
+      "Offset": 0,
+      "ExchangeData": "float"
+    }
+  ]
+}

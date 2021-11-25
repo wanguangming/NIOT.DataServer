@@ -1,0 +1,29 @@
+{
+  "ConnectId": "Default",
+  "ConnectConfig": {
+    "PortName": "COM2",
+    "BaudRate": 9600,
+    "DataBits": 8,
+    "StopBits": 1,
+    "Parity": "None",
+    "SlaveID": 1,
+    "ColloctCycle": 200,
+    "Timeout": 1000,
+    "Exchange32bit": "1234",
+    "ExchangeString": "12"
+  },
+  "HelpText": "这是一段帮助文本。",
+  "AddressConfigs": [
+    {
+      "DataName": "OD",
+      "SlaveId": 1,
+      "Area": 4,
+      "Index": 32,
+      "Length": 2,
+      "DataType": "float",
+      "Convert": "21",
+      "Rate": 0.001,
+      "Offset": 0
+    }
+  ]
+}

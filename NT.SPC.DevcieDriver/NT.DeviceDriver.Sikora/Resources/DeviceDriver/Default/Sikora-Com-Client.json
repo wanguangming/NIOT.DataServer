@@ -1,0 +1,46 @@
+{
+  "ConnectId": "Default",
+  "ConnectConfig": {
+    "PortName": "COM2",
+    "BaudRate": 19200,
+    "DataBits": 8,
+    "StopBits": 1,
+    "Parity": "None",
+    "SlaveID": 1,
+    "AcquisitionCycle": 1000,
+    "Timeout": 1000
+  },
+  "HelpText": "这是一段帮助文本。",
+  "AddressConfigs": [
+    {
+      "IDB": "001",
+      "DataName": "OD",
+      "DataType": "float",
+      "StartByte": 1,
+      "DataLength": 5,
+      "ExchangeType": "21",
+      "Rate": 0.001,
+      "Offset": 0
+    },
+    {
+      "IDB": "209",
+      "DataName": "Ecc",
+      "DataType": "float",
+      "StartByte": 1,
+      "DataLength": 4,
+      "ExchangeType": "21",
+      "Rate": 0.001,
+      "Offset": 0
+    },
+    {
+      "IDB": "016",
+      "DataName": "Ova",
+      "DataType": "float",
+      "StartByte": 1,
+      "DataLength": 5,
+      "ExchangeType": "21",
+      "Rate": 0.001,
+      "Offset": 0
+    }
+  ]
+}

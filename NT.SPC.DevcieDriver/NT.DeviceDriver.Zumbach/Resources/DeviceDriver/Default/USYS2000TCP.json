@@ -1,0 +1,21 @@
+{
+  "ConnectId": "Default",
+  "ConnectConfig": {
+    "Host": "127.0.0.1",
+    "Port": 7720,
+    "AcquisitionCycle": 100,
+    "Timeout": 100,
+    "BufferSize": 11
+  },
+  "HelpText": "这是一段帮助文本。",
+  "AddressConfigs": [
+    {
+      "DataName": "OD",
+      "Address": "d1100",
+      "DataType": "float",
+      "ExchangeType": "21",
+      "Rate": 1,
+      "Offset": 0
+    }
+  ]
+}

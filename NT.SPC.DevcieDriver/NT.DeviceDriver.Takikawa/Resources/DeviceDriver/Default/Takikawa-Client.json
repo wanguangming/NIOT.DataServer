@@ -1,0 +1,25 @@
+{
+  "ConnectId": "Default",
+  "ConnectConfig": {
+    "PortName": "COM2",
+    "BaudRate": 9600,
+    "DataBits": 8,
+    "StopBits": 1,
+    "Parity": "None",
+    "SlaveID": 1,
+    "AcquisitionCycle": 200,
+    "Timeout": 1000
+  },
+  "HelpText": "这是一段帮助文本。",
+  "AddressConfigs": [
+    {
+      "DataName": "OD",
+      "SendChar": "R",
+      "MillLen": 4,
+      "DataType": "float",
+      "ExchangeType": "21",
+      "Rate": 1,
+      "Offset": 0
+    }
+  ]
+}

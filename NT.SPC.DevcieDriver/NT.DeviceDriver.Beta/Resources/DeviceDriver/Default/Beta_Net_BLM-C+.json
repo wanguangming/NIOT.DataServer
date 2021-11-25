@@ -1,0 +1,22 @@
+{
+  "ConnectId": "Default",
+  "ConnectConfig": {
+    "Host": "127.0.0.1",
+    "Port": 2001,
+    "AcquisitionCycle": 1000,
+    "Timeout": 30000,
+    "ReadBuffSize": 17
+  },
+  "HelpText": "这是一段帮助文本。",
+  "AddressConfigs": [
+    {
+      "DataName": "Cap",
+      "Address": "C",
+      "Length": 5,
+      "DataType": "float",
+      "ExchangeType": "21",
+      "Rate": 0.01,
+      "Offset": -100
+    }
+  ]
+}

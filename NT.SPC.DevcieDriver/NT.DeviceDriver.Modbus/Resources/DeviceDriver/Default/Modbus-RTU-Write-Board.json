@@ -1,0 +1,65 @@
+{
+  "ConnectId": "Default",
+  "ConnectConfig": {
+    "PortName": "COM4",
+    "BaudRate": 9600,
+    "DataBits": 8,
+    "StopBits": 1,
+    "Parity": "None",
+    "AcquisitionCycle": 10,
+    "Timeout": 100,
+    "Exchange32bit": "1234",
+    "ExchangeString": "21"
+  },
+  "HelpText": "这是一段帮助文本。",
+  "AddressConfigs": [
+    {
+      "DataName": "ColdCap",
+      "SlaveId": 1,
+      "Area": 4,
+      "Index": 0,
+      "Length": 1,
+      "DataType": "ushort",
+      "ExchangeType": "21",
+      "Rate": 1,
+      "Offset": 0,
+      "ExchangeData": "float"
+    },
+    {
+      "DataName": "ColdOd",
+      "SlaveId": 1,
+      "Area": 4,
+      "Index": 1,
+      "Length": 1,
+      "DataType": "ushort",
+      "ExchangeType": "21",
+      "Rate": 1,
+      "Offset": 0,
+      "ExchangeData": "float"
+    },
+    {
+      "DataName": "Lspeed",
+      "SlaveId": 1,
+      "Area": 4,
+      "Index": 2,
+      "Length": 1,
+      "DataType": "ushort",
+      "ExchangeType": "21",
+      "Rate": 1,
+      "Offset": 0,
+      "ExchangeData": "float"
+    },
+    {
+      "DataName": "Length",
+      "SlaveId": 1,
+      "Area": 4,
+      "Index": 3,
+      "Length": 2,
+      "DataType": "uint",
+      "ExchangeType": "21",
+      "Rate": 1,
+      "Offset": 0,
+      "ExchangeData": "float"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ConnectId": "Default",
+  "ConnectConfig": {
+    "PortName": "COM2",
+    "BaudRate": 9600,
+    "DataBits": 7,
+    "StopBits": 1,
+    "Parity": "Even",
+    "AcquisitionCycle": 1000,
+    "Timeout": 1000
+  },
+  "HelpText": "这是一段帮助文本。",
+  "AddressConfigs": [
+    {
+      "DataName": "Cap",
+      "Address": "C",
+      "Length": 5,
+      "DataType": "float",
+      "ExchangeType": "21",
+      "Rate": 0.01,
+      "Offset": -100
+    }
+  ]
+}
